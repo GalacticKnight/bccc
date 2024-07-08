@@ -7,15 +7,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
-    
       <NavBar/>
         <Routes>
           <Route path='/' element={<HomePage/>}/>
           <Route path='/pastor' element={<PastorPage/>}/>
         </Routes>
       <Footer/>
-    
-    
     </>
   );
 }

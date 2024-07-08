@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
             <div class="btn-group">
                 <button class="btn btn-primary">
-                <li className='nav-item'><HashLink smooth to='/#anthology' className='nav-link' href="#">Anthology</HashLink></li>
+                <li className='nav-item'><HashLink smooth to='/#contact' className='nav-link' href="#">Contact Us</HashLink></li>
                 {/* <!-- <ion-icon name="play-circle"></ion-icon> --> */}
                 </button>
                 {/* <button><a href="https://forms.gle/kVmB9CahkDHVXr796" class="btn btn-secondary"><b>Sign Up</b></a></button> */}
