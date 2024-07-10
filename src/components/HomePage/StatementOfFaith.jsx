@@ -1,10 +1,10 @@
 import React from 'react';
-
+import '../static/SOF.css';
 
 const StatementOfFaith = () => {
     return (
         <section className='darkSection'>
-            <div className='aboutSummary'>
+            <div  className='aboutSummary'>
                 <h2 style={{textAlign:"center"}}>Statement Of Faith </h2>
                 <ol>
                     <li>We believe that all Scripture, consisting of 66 books in the Old and New Testament, are the only divinely inspired infallible words of God. Scripture is the supreme authority in all matters of faith and conduct.</li>

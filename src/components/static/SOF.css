@@ -1,0 +1,33 @@
+.aboutSummary {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.aboutSummary ol {
+    padding-left: 20px; 
+    margin-bottom: 20px; 
+}
+
+.aboutSummary ol li {
+    margin-bottom: 10px; 
+    line-height: 1.6; 
+}
+
+@media (min-width: 768px) {
+    .aboutSummary {
+        width: 80%; 
+    }
+}
+    .aboutSummary ol {
+        padding-left: 30px; 
+}
+
+@media (min-width: 1024px) {
+    .aboutSummary {
+        width: 70%; 
+    }
+}
+    .aboutSummary ol {
+        padding-left: 40px; 
+}
