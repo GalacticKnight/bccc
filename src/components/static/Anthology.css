@@ -12,7 +12,13 @@
     display: block;
     width: 100%;
     max-width: 300px;
+    transition: filter 0.3s ease;
 }
+
+#book img:hover {
+    filter: brightness(1.1);
+}
+
 
 .anthologySummary {
     width: 90%; 
