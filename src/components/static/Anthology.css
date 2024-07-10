@@ -15,20 +15,27 @@
 }
 
 .anthologySummary {
-    width: 90%; /* Default width for small screens */
-    max-width: 800px; /* Maximum width to prevent it from getting too wide */
+    width: 90%; 
+    max-width: 800px; 
     margin: 0 auto;
 }
 
-/* Add media queries to adjust width for different screen sizes */
 @media (min-width: 768px) {
     .anthologySummary {
         width: 80%;
+    }
+
+    #book img{
+        max-width: 250px;
     }
 }
 
 @media (min-width: 1024px) {
     .anthologySummary {
         width: 70%;
+    }
+
+    #book img{
+        max-width: 200px;
     }
 }
