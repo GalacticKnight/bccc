@@ -1,5 +1,6 @@
 import React from "react";
 import '../static/Anthology.css';
+import bookImage from "../images/book.png"; 
 const Anthology = () => {
     return (
         <section className='projectsSection' id='projects' >
@@ -7,11 +8,11 @@ const Anthology = () => {
             <h2 style={{textAlign:"center"}}>Our Anthology</h2>
             <div id='book'>
                 <a href="http://bccc-ny.org/assets/pdf/SBI7Anthology.pdf">
-                    <img src= "../images/book.png" alt="book image"/>
+                    <img src={bookImage} alt="book image"/> 
                 </a>
             </div>
             <p>The following anthology was created in the summer of 2023 by SBI (Summa Bible Institute) 7.0, a youth ministry team from Brooklyn Community Christian Church.</p>
-            <p>Our goal is to model ourselves after 1 Timothy 4:12:</p>
+            <p style={{textAlign:"center"}}>Our goal is to model ourselves after 1 Timothy 4:12:</p>
             <p class="alignAntho">Let no one despise you for your youth, but set the believers an example in speech, in conduct, in love, in faith, in purity.</p>
             <p>
                 Each SBI member has written their testimony, a story detailing their experiences with God and their acceptance of Jesus Christ as their Lord and Savior. Along with 

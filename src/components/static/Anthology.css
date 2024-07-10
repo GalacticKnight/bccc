@@ -2,3 +2,33 @@
     text-align: center;
     font-style: italic;
 }
+
+#book {
+    display: flex;
+    justify-content: center;
+}
+
+#book img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+}
+
+.anthologySummary {
+    width: 90%; /* Default width for small screens */
+    max-width: 800px; /* Maximum width to prevent it from getting too wide */
+    margin: 0 auto;
+}
+
+/* Add media queries to adjust width for different screen sizes */
+@media (min-width: 768px) {
+    .anthologySummary {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .anthologySummary {
+        width: 70%;
+    }
+}
