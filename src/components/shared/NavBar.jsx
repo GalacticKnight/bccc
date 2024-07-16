@@ -16,38 +16,30 @@ const NavBar = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarExample01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#intro">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank" >Learn Bootstrap 5</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://mdbootstrap.com/docs/standard/"target="_blank">Download MDB UI KIT</a >
-                    </li>
-                    </ul>
-            
-                    <ul class="navbar-nav flex-row">
-                    <li class="nav-item">
-                        <a class="nav-link pe-2" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank" >
-                        <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank" >
-                        <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-2" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank" >
-                        <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ps-2" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
-                        <i class="fab fa-github"></i>
-                        </a>
-                    </li>
+                        {/* <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#verse">Verse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#hero">Statement Of Faith</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#contact">Photos</a >
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#time">Times Of Service</a>
+                        </li> */}
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#about" >About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#Anthology" >Anthology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#footer">Contacts</a >
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -56,6 +48,7 @@ const NavBar = () => {
         
     );
 }
+
 
 export default NavBar;
 {/*         // <header className='navbar navbar-expand-md bg-white navbar-white'>

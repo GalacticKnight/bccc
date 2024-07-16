@@ -3,9 +3,11 @@ import '../static/Anthology.css';
 import bookImage from "../images/book.png"; 
 const Anthology = () => {
     return (
-        <section className='projectsSection' id='projects' >
+        <section className=' projectsSection' id='projects' >
         <div className="anthologySummary">
-            <h2 style={{textAlign:"center"}}>Our Anthology</h2>
+            <div className="d-flex justify-content-center">
+                <h2 className='siteHeadings'>Our Anthology</h2>
+            </div>
             <div id='book'>
                 <a href="http://bccc-ny.org/assets/pdf/SBI7Anthology.pdf">
                     <img src={bookImage} alt="book image"/> 
