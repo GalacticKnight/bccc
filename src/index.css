@@ -18,6 +18,14 @@ code {
     monospace;
 }
 
+
+.aboutSummary {
+  border: 2px solid #B09A69;
+  border-radius: 15px; 
+  padding: 20px; 
+  background-color: #EBD096;
+}
+
 /* Media Queries Syntax: 
 @media media type and (condition: breakpoint){
   css rules
@@ -42,7 +50,6 @@ code {
 .navbar-scrolled {
   background-color: #fff;
 }
-
 
 .siteLogo > h1{
   color:#00a8f6;
