@@ -4,7 +4,7 @@ import bookImage from "../images/book.png";
 const Anthology = () => {
     return (
         <section className=' projectsSection' id='projects' >
-        <div className="anthologySummary">
+        <div className="anthologySummary"> 
             <div className="d-flex justify-content-center">
                 <h2 className='siteHeadings'>Our Anthology</h2>
             </div>
@@ -23,7 +23,7 @@ const Anthology = () => {
             </p>
             <p class="alignAntho">SBI 7.0 Directors<br /> Cullen Ye and Simeon Leung</p>
 
-        </div>
+        </div> 
         </section>
     );
 }

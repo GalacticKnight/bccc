@@ -4,7 +4,7 @@ import pastorImage from "../images/Pastor.jpg";
 
 const Pastor = () => {
     return (
-        <section className='darkSection' id='about'>
+        <section className='darkSection' id="padding">
                 <h3 className='siteHeadings'>Pastor Andy Tso</h3>
                 <img id = "pastor-image"src={pastorImage} alt="pastor image"/>
                 <div className = "aboutSummary">

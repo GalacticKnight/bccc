@@ -4,6 +4,10 @@
   /* font-size: 20px; */
 }
 
+#root{
+  background-color: #FAF1DC;
+}
+
 body {
   margin: 0;
   font-family: -apple-sys tem, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,13 +22,14 @@ code {
     monospace;
 }
 
-
 .aboutSummary {
   border: 2px solid #B09A69;
   border-radius: 15px; 
   padding: 20px; 
   background-color: #EBD096;
 }
+
+
 
 /* Media Queries Syntax: 
 @media media type and (condition: breakpoint){
@@ -69,7 +74,6 @@ code {
 
 /* PROPER SPACING OR PADDING BETWEEN SECTIONS */
 .darkSection{
-  background-color: rgb(255, 255, 255);
   padding: 60px 0;
 }
 
