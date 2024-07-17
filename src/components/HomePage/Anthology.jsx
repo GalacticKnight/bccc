@@ -10,9 +10,10 @@ const Anthology = () => {
             </div>
             <div id='book'>
                 <a href="http://bccc-ny.org/assets/pdf/SBI7Anthology.pdf">
-                    <img src={bookImage} alt="book image"/> 
+                    <img src={bookImage} alt="book image"/>
                 </a>
             </div>
+            <p id="book-caption">Click the book to read!</p>
             <p>The following anthology was created in the summer of 2023 by SBI (Summa Bible Institute) 7.0, a youth ministry team from Brooklyn Community Christian Church.</p>
             <p style={{textAlign:"center"}}>Our goal is to model ourselves after 1 Timothy 4:12:</p>
             <p class="alignAntho">Let no one despise you for your youth, but set the believers an example in speech, in conduct, in love, in faith, in purity.</p>

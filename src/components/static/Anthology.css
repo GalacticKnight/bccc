@@ -28,6 +28,12 @@
     margin: 0 auto;
 }
 
+#book-caption{
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
 @media (min-width: 768px) {
     .anthologySummary {
         width: 80%;
