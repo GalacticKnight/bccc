@@ -3,7 +3,7 @@ import '../static/Pastor.css';
 
 const Motto = () => {
     return (
-        <section className='darkSection' >
+        <section className='darkSection' id="padding">
             <div className = "aboutSummary">
                 <h4>Motto</h4>
                 <p id = "quote">

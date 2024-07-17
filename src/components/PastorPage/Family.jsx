@@ -3,7 +3,7 @@ import '../static/Pastor.css';
 
 const Family = () => {
     return (
-        <section className='darkSection' class="padding">
+        <section className='darkSection'>
             <div className = "aboutSummary">
                 <h4>Family</h4>
                 <p>
