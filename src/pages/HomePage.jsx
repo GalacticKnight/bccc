@@ -6,6 +6,7 @@ import StatementOfFaith from '../components/HomePage/StatementOfFaith';
 // import About from '../components/HomePage/About';
 import Contact from '../components/HomePage/Contact';
 import TimeOfService from '../components/HomePage/TimesOfService';
+import Address from '../components/HomePage/Address';
 
 const HomePage = () => {
     return (
@@ -14,7 +15,7 @@ const HomePage = () => {
             <BibleVerse/>
             <StatementOfFaith/>
             <div className='flex-fod'>
-                <Contact/>
+                <Address/>
                 <TimeOfService/>
             </div>
             <Anthology/>

@@ -23,24 +23,13 @@ code {
 }
 
 .aboutSummary {
+  width: 80%;
   border: 2px solid #B09A69;
   border-radius: 15px; 
   padding: 20px; 
   background-color: #EBD096;
+  
 }
-
-
-
-/* Media Queries Syntax: 
-@media media type and (condition: breakpoint){
-  css rules
-} */
-/* @media screen and (min-width: 481px){
-  /* min-width is used because we build for mobile first, design for smallest to largest, starting with min-width */
-  /* rules in here will execute when we go over the breakpoint in condition */
-  /* .heroContainer{
-    width: 90%;
-  } */
 
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler .fa-bars {
@@ -75,8 +64,15 @@ code {
 /* PROPER SPACING OR PADDING BETWEEN SECTIONS */
 .darkSection{
   padding: 60px 0;
+  
+  /* content: 30px; */
 }
 
+.flex-fod{
+  display: flex;
+  height: 400px;
+  
+}
 /* Every Category has a green line afterwards */
 .siteHeadings::before{
   content: "";
@@ -91,6 +87,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+  width:100%;
   padding: 20px 0;
   font-size: 40px;
 }
