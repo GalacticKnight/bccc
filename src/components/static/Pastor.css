@@ -10,7 +10,24 @@
 }
 
 #quote{
-    text-align: center;
     font-size: 1.25em;
     font-style: italic;
+    margin: 0;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+  }
+
+  .flex-container > #quote{
+    
+  }
+
+  h4{
+    text-align: center;
+  }

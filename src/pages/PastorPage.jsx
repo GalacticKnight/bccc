@@ -5,6 +5,7 @@ import Pastor from '../components/PastorPage/Pastor'
 import Motto from '../components/PastorPage/Motto';
 import Family from '../components/PastorPage/Family';
 import Fun from '../components/PastorPage/Fun';
+import FlexRow from '../components/PastorPage/FlexRow';
 const HomePage = () => {
     return (
         <>
@@ -14,9 +15,7 @@ const HomePage = () => {
             <br/>
             <br/>   
             <Pastor/>
-            <Motto />
-            <Family/>
-            <Fun/>
+            <FlexRow/>
         </>
     );
 }
