@@ -4,6 +4,7 @@ import {HashLink} from 'react-router-hash-link';
 import '../static/Navbar.css'
 const Logo = require('../images/BCCC_logo.png');
 
+
 const NavBar = () => {
     return (
         <nav class="navbar navbar-expand-lg fixed-top navbar-scroll" data-mdb-navbar-init>
@@ -17,16 +18,16 @@ const NavBar = () => {
                 <div class="collapse navbar-collapse" id="navbarExample01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" aria-current="page" href="#hero">Home</a>
+                            <HashLink smooth to ='/#hero' class="nav-link" aria-current="page" href="#">Home</HashLink>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" aria-current="page" href="#time">About</a>
+                            <HashLink smooth to ='/#SOF' class="nav-link" aria-current="page" href="#">Our Beliefs</HashLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#Anthology" >Anthology</a>
+                            <HashLink smooth to ='/#anthology' class="nav-link" aria-current="page" href="#" >Anthology</HashLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#footer">Contacts</a >
+                            <HashLink smooth to ='/#footer' class="nav-link" aria-current="page" href="#">Contacts</HashLink >
                         </li>
                     </ul>
                 </div>

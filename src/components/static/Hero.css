@@ -1,6 +1,55 @@
+.btn {
+    color: purple;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid purple;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+  }
+  
+  .btn:hover {
+    color: white;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: purple;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .btn:hover::before {
+    width: 160%;
+  }
+
+
+
+
 .hero {
     background: url("../images/Hero2.PNG") no-repeat;
-    filter: contrast(150%) brightness(80%);
+    
+
+    filter: 
+    contrast(150%) 
+    brightness(60%) 
+    saturate(3) 
+    rayscale(100%)
+    blur(3px)
+    invert(100%)
+    sepia(100%)
+    hue-rotate(180deg)
+    opacity(50%); 
     background-size: cover;
     background-position: top center;
     padding: var(--section-padding) 0;
@@ -202,7 +251,12 @@ margin: 0;
 span {
     text-align: center;
     color: #fff;
-    font-size: 150px;
+}
+#first{
+    font-size: 30px;
+}
+#second{
+    font-size: 60px;
 }
 span {
     display: inline-block;
@@ -210,12 +264,15 @@ span {
     filter: blur(4px);
     display: inline;
 }
+p {
+    display: inline;
+}
 
 span:nth-child(1) {
 animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 span:nth-child(2) {
-animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+animation: fade-in 2.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 span:nth-child(3) {
 animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);

@@ -8,6 +8,11 @@ import Fun from '../components/PastorPage/Fun';
 const HomePage = () => {
     return (
         <>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>   
             <Pastor/>
             <Motto />
             <Family/>

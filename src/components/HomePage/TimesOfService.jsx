@@ -4,8 +4,8 @@ import '../static/TOS.css';
 
 const StatementOfFaith = () => {
     return (
-        <section className='darkSection'>
-            {/* <div className='aboutSummary'>
+        <section className='darkSection' >
+            <div className='aboutSummary' id="schedule">
                 <h2 style={{textAlign:"center"}}>Service Times</h2>
                 <div id="table">
                     <table>
@@ -41,7 +41,7 @@ const StatementOfFaith = () => {
                         </tr>
                     </table>
                     </div>
-            </div> */}
+            </div>
         </section>
     );
 }

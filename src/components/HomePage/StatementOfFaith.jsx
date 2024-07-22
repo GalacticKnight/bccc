@@ -3,7 +3,7 @@ import '../static/SOF.css';
 
 const StatementOfFaith = () => {
     return (
-        <section className='darkSection'>
+        <section className='darkSection' id='SOF'>
             <div  className='aboutSummary'>
                 <h2 style={{textAlign:"center"}}>Statement Of Faith </h2>
                 <ol>

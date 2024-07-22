@@ -3,7 +3,7 @@ import '../static/Anthology.css';
 import bookImage from "../images/book.png"; 
 const Anthology = () => {
     return (
-        <section className=' projectsSection' id='projects' >
+        <section className=' projectsSection' id='anthology' >
         <div className="anthologySummary"> 
             <div className="d-flex justify-content-center">
                 <h2 className='siteHeadings'>Our Anthology</h2>

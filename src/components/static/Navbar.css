@@ -1,13 +1,18 @@
 .nav-background{
   background-color: rgb(255, 255, 255);
-  }
+}
+
+.nav-link:hover {
+  color: rgb(0, 0, 0);
+}
 img {
   width: 200px;
 }
-.nav-item{
+.nav-link{
   color:blue;
 }
 .navbar {
+  background-color: #ccb074;
   font-size: larger;
   position: fixed;
   display: flex;
@@ -19,7 +24,6 @@ img {
   margin: auto;
   top: 0;
   border-bottom: solid 1px var(--primary-color);
-  opacity: 0.9;
   top: 0;
 
 }

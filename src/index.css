@@ -81,7 +81,7 @@ code {
   position: relative;
   height: 1px;
   margin-right: 20px;
-  background-color: #a3f500;
+  background-color: #f500a3;
 }
 .siteHeadings{
   display: flex;
@@ -98,7 +98,7 @@ code {
   position: relative;
   height: 1px;
   margin-left: 20px;
-  background-color: #a3f500;
+  background-color: #f500a3;
 }
 
 .contact{

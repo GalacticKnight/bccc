@@ -6,12 +6,12 @@ const Contact = () => {
     return (
         <section className='darkSection contact' id='contact'>
             
-            {/* <div className='aboutSummary'>
-                <img src={Map} className="borderRadius: 44/2;"></img>
+            <div className='aboutSummary'>
+                <img src={Map} className="roundi"></img>
                 <p>Address:</p>
                 <p>2287 East 15th St.</p>
                 <p>Brooklyn, NY 11229</p>
-            </div> */}
+            </div>
         </section>
     );
 }

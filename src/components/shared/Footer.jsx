@@ -7,7 +7,7 @@ const facebook = require('../images/facebook.png');
 const instagramIcon = require('../images/insta-logo.png');
 const Footer = () => {
     return (
-        <footer className='projectsSection'>
+        <footer className='projectsSection' id="footer">
             <div className='footerBox'>
                 <div className='projectsBox contactInfoBox'>
                     
