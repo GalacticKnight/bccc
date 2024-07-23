@@ -5,6 +5,7 @@ import Contact from '../HomePage/Contact';
 const emailIcon = require('../images/email.png');
 const facebook = require('../images/facebook.png');
 const instagramIcon = require('../images/insta-logo.png');
+const youtubeIcon = require('../images/youtube-icon.png');
 const Footer = () => {
     return (
         <footer className='projectsSection' id="footer">
@@ -17,8 +18,8 @@ const Footer = () => {
                             <h3 className='siteHeadings'>Contact</h3>
                         </div>
                         <img src={emailIcon} onClick={() => window.open('church@gmail.com')} alt="email icon" />
-                        <img src={facebook} onClick={() => window.open('facebook.com')} alt="linkedin icon" />
-                        <img src={instagramIcon} onClick={() => window.open('https://www.instagram.com')} alt="instagram icon" />
+                        <img src={instagramIcon} onClick={() => window.open('https://www.instagram.com/bccc_ig')} alt="instagram icon" />
+                        <img src={youtubeIcon} onClick={() => window.open('https://www.youtube.com/@bcccvideos7178')} alt="youtube icon" />
                         <Contact/>
                     </div>
                 </div>
