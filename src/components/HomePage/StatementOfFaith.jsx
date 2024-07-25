@@ -5,7 +5,7 @@ const StatementOfFaith = () => {
     return (
         <section className='darkSection' id='SOF'>
             <div  className='aboutSummary'>
-                <h2 style={{textAlign:"center"}}>Statement Of Faith </h2>
+                <h2 className = "siteHeadings" style={{textAlign:"center"}}>Statement Of Faith </h2>
                 <ol>
                     <li>We believe that all Scripture, consisting of 66 books in the Old and New Testament, are the only divinely inspired infallible words of God. Scripture is the supreme authority in all matters of faith and conduct.</li>
                     <li>We believe that there is one living and true God, eternally existing as three Persons, the Father, the Son and the Holy Spirit, equal in power and glory; that this triune God created all, upholds all and governs all.</li>

@@ -2,8 +2,11 @@
     display:block;
     margin: auto;
     border-radius: 50%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #B09A69
 }
+
+
 
 #padding{
     padding-bottom: 0px;
@@ -18,16 +21,12 @@
 .flex-container {
     display: flex;
     justify-content: center;
-  }
+}
   
-  .flex-container > div {
+.flex-container > div {
     margin: 10px;
-  }
+}
 
-  .flex-container > #quote{
-    
-  }
-
-  h4{
+h4{
     text-align: center;
-  }
+}

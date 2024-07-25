@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className='socialsContainer'>
                     {/* <h3 className='siteHeadings'>Contact</h3> */}
                         <div className="d-flex justify-content-center">
-                            <h3 className='siteHeadings'>Contact</h3>
+                            <h3 className='siteHeadings'>Socials</h3>
                         </div>
                         <img src={emailIcon} onClick={() => window.open('church@gmail.com')} alt="email icon" />
                         <img src={instagramIcon} onClick={() => window.open('https://www.instagram.com/bccc_ig')} alt="instagram icon" />

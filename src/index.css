@@ -79,9 +79,9 @@ code {
   display: block;
   width: 150px;
   position: relative;
-  height: 1px;
+  height: 4px;
   margin-right: 20px;
-  background-color: #f500a3;
+  background-color: #A68C9A;
 }
 .siteHeadings{
   display: flex;
@@ -90,15 +90,16 @@ code {
   width:100%;
   padding: 20px 0;
   font-size: 40px;
+  font-family: Helvetica;
 }
 .siteHeadings::after{
   content: "";
   display: block;
   width: 150px;
   position: relative;
-  height: 1px;
+  height: 4px;
   margin-left: 20px;
-  background-color: #f500a3;
+  background-color: #A68C9A;
 }
 
 .contact{

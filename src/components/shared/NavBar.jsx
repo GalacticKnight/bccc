@@ -27,7 +27,7 @@ const NavBar = () => {
                             <HashLink smooth to ='/#anthology' class="nav-link" aria-current="page" href="#" >Anthology</HashLink>
                         </li>
                         <li class="nav-item">
-                            <HashLink smooth to ='/#footer' class="nav-link" aria-current="page" href="#">Contacts</HashLink >
+                            <HashLink smooth to ='/#footer' class="nav-link" aria-current="page" href="#">Socials</HashLink >
                         </li>
                     </ul>
                 </div>
