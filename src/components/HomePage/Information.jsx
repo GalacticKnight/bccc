@@ -4,16 +4,19 @@ import Map from '../images/map.jpg';
 import '../static/Information.css';
 const Information = () => {
     return (
-        <div>
-            <section className='darkSection contact' id='contact'>
-                <div className='aboutSummary flex fod'>
+        <div className="force-w center">
+            <section className='darkSection contact flex-container ' id='contact'>
+                <div className='aboutSummary flex-container '>
                     <img src={Map} className="roundi"></img>
+                    <hr/>
                     <p>Address:</p>
+                    <br/>
                     <p>2287 East 15th St.</p>
+                    <br/>   
                     <p>Brooklyn, NY 11229</p>
                 </div>
             
-                <div className='aboutSummary flex fod'>
+                <div className='aboutSummary flex-container '>
                     <h2 style={{textAlign:"center"}}>Service Times</h2>
                     <div id="table">
                         <table>

@@ -12,15 +12,14 @@ const Hero = () => {
                 <span id="second">Brooklyn Christian Community Church</span>
                 <br/><br/>
                 <button class="btn" >
-                    <a href="/pastor">
-                    PASTOR</a>
-                    
+                    <a href="/pastor">PASTOR</a>
                 </button>
-                <td width="20px inline"></td>
+                <p width="20px"></p>
+                {/* <td width="20px"></td> */}
                 <button class="btn">
-                <HashLink smooth to ='/#schedule' class="nav-link" aria-current="page" href="#">
-                    Schedule
-                </HashLink>
+                    <HashLink smooth to ='/#schedule' class="nav-link" aria-current="page" href="#">
+                        Schedule
+                    </HashLink>
                 </button>
 
                 

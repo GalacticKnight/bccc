@@ -23,6 +23,8 @@ const FlexRow = () => {
                     </p>
                 </div>
             </div>
+            <br/>
+            <br/>
             {/* fun facts is outside the flex div */}
             <div id="fun-facts" className = "aboutSummary">
                 <h4><strong>Some Fun Facts!</strong></h4>
