@@ -1,5 +1,11 @@
 .roundi {
     border-radius: 50%;
+    border-radius: 50%;
+    width: 350px; /* Adjust to the desired size */
+    height: 350px; /* Ensure height matches width */
+    display: block; /* Center the image if needed */
+    margin: 50px auto; /* Center the image horizontally */
+    border: 2px solid #B09A69;
 }
 
 .flex-container {
@@ -12,4 +18,35 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.aboutSummary {
+    width: 80%;
+    border: 2px solid #B09A69;
+    border-radius: 15px; 
+    padding: 20px; 
+    background-color: #EBD096;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between table cells */
+}
+
+table, th, td {
+    border: 1px solid #B09A69; /* Add border to table elements */
+}
+
+th, td {
+    padding: 8px; /* Add padding to table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #B09A69; /* Add a background color to the table headers */
+    color: white; /* Change text color for better contrast */
+}
+
+#address-heading{
+    text-align: center;
 }

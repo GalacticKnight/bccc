@@ -17,7 +17,7 @@ const Footer = () => {
                         <div className="d-flex justify-content-center">
                             <h3 className='siteHeadings'>Socials</h3>
                         </div>
-                        <img src={emailIcon} onClick={() => window.open('church@gmail.com')} alt="email icon" />
+                        <img src={emailIcon} onClick={() => window.location.href = 'mailto:bccc.connect@gmail.com'} alt="email icon" />
                         <img src={instagramIcon} onClick={() => window.open('https://www.instagram.com/bccc_ig')} alt="instagram icon" />
                         <img src={youtubeIcon} onClick={() => window.open('https://www.youtube.com/@bcccvideos7178')} alt="youtube icon" />
                         <Contact/>

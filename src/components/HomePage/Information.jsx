@@ -7,17 +7,18 @@ const Information = () => {
         <div className="force-w center">
             <section className='darkSection contact flex-container ' id='contact'>
                 <div className='aboutSummary flex-container '>
+                <div id = "address-heading">
+                        <h2>Address</h2>
+                    </div>
                     <img src={Map} className="roundi"></img>
                     <hr/>
-                    <p>Address:</p>
-                    <br/>
-                    <p>2287 East 15th St.</p>
-                    <br/>   
-                    <p>Brooklyn, NY 11229</p>
+                    <p><strong>2287 East 15th St. Brooklyn, NY 11229</strong></p>
                 </div>
             
                 <div className='aboutSummary flex-container '>
-                    <h2 style={{textAlign:"center"}}>Service Times</h2>
+                    <div id = "service-time-heading">
+                        <h2>Service Times</h2>
+                    </div>
                     <div id="table">
                         <table>
                             <tr>

@@ -1,12 +1,10 @@
 #pastor-image{
-    display:block;
+    display: block;
     margin: auto;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 1px solid #B09A69
+    border: 1px solid #B09A69;
 }
-
-
 
 #padding{
     padding-bottom: 0px;
@@ -20,6 +18,7 @@
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     max-width: 71%;
     margin-left: auto;
@@ -28,8 +27,38 @@
   
 .flex-container > div {
     margin: 10px;
+    flex-basis: 100%;
 }
 
 h4{
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .aboutSummary {
+        width: 70%;
+    }
+
+    #pastor-image {
+        max-width: 300px;
+    }
+
+    .flex-container > div {
+        flex-basis: 45%; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .aboutSummary {
+        width: 60%;
+    }
+
+    #pastor-image {
+        max-width: 300px;
+    }
+
+    .flex-container-pastor > div {
+        flex-basis: 40%;  
+    }
+    
 }

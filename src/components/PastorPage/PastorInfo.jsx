@@ -1,7 +1,7 @@
 import React from 'react';
 import '../static/Pastor.css';
 
-const FlexRow = () => {
+const PastorInfo = () => {
     return (
         <section className='darkSection'>
             {/* the container for the flex row */}
@@ -38,4 +38,4 @@ const FlexRow = () => {
     );
 }
 
-export default FlexRow;
+export default PastorInfo;
