@@ -10,7 +10,9 @@ const Family = () => {
                     Together they have discipled numerous singles and couples in pre-marital and 
                     marriage counseling for more than 20 years. They have four kids: Emmet (“the Truth” ),
                     Artesia (“the Life”), Deryka (“the Way”), and Jedidiah (“the Love of God”).
+                
                 </p>
+                
             </div>
         </section>
     );

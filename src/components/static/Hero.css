@@ -1,55 +1,67 @@
-.btn {
-    color: purple;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 2px solid purple;
-    padding: 10px 20px;
-    font-size: 17px;
-    font-weight: bold;
-    background: transparent;
-    position: relative;
-    transition: all 1s;
-    overflow: hidden;
-  }
-  
-  .btn:hover {
+.button {
+    background-color: #ffffff; /* Green */
+    border: none;
     color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    width:150px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
   }
   
-  .btn::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    top: 0;
-    left: -40px;
-    transform: skewX(45deg);
-    background-color: purple;
-    z-index: -1;
-    transition: all 1s;
+  .button1:hover {
+    background-color: #242e47;
+    color: #ffffff;
+    border: 2px solid #242e47;
+  }
+  .button2 {
+    width:150px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
   }
   
-  .btn:hover::before {
-    width: 160%;
-  }
-
-
-
+  .button2:hover {
+    background-color: #242e47;
+    color: #ffffff;
+    border: 2px solid #242e47;
+}
+.flash{
+    text-decoration:none;
+    /* effect:none; */
+    color:black;
+}
+.flash:hover{
+    color:white;
+}
+  
+.divider{
+    width:20px;
+    height:auto;
+    display:inline-block;
+}
 
 .hero {
-    background: url("../images/Hero2.PNG") no-repeat;
+    background: url("../images/Hero5.png") no-repeat;
     
-
-    filter: 
-    contrast(150%) 
-    brightness(60%) 
+/* 
     saturate(3) 
     rayscale(100%)
     blur(3px)
     invert(100%)
     sepia(100%)
-    hue-rotate(180deg)
-    opacity(50%); 
+    hue-rotate(180deg) 
+    opacity(150%)*/
+    filter: contrast(100%) brightness(100%) ; 
     background-size: cover;
     background-position: top center;
     padding: var(--section-padding) 0;

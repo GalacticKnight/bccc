@@ -11,19 +11,23 @@ const Hero = () => {
                 <br/>
                 <span id="second">Brooklyn Christian Community Church</span>
                 <br/><br/>
-                <button class="btn" >
-                    <a href="/pastor">PASTOR</a>
+                
+                <button class="button button1">
+                    Black
                 </button>
-                <p width="20px"></p>
+                <div class="divider"/>
+                <HashLink smooth to ='/#schedule' class="nav-link" aria-current="page" class="flash">
+                    
+                    <button class="button button2">Schedule</button>
+                </HashLink>
+                
+
+                
                 {/* <td width="20px"></td> */}
-                <button class="btn">
-                    <HashLink smooth to ='/#schedule' class="nav-link" aria-current="page" href="#">
-                        Schedule
-                    </HashLink>
-                </button>
 
                 
             </h1>
+            
             <br/>
                 
             <div class="area" >
@@ -50,6 +54,7 @@ const Hero = () => {
                 <li></li>
             </ul> */}
         </div>
+        
         </section>
 
             
