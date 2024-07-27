@@ -49,7 +49,14 @@
     height:auto;
     display:inline-block;
 }
-
+.same{
+    display:inline;
+    display: inline-block;
+    display: flex;
+    /* align-items: center;  */
+    /* justify-items: center; */
+    justify-content: center;
+}
 .hero {
     background: url("../images/Hero5.png") no-repeat;
     
