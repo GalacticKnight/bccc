@@ -1,3 +1,6 @@
+#first, #second{
+    text-shadow: 2px 2px black;
+}
 .button {
     background-color: #ffffff; /* Green */
     border: none;
