@@ -1,52 +1,113 @@
+
+/*Defaul Styling */
 .roundi {
     border-radius: 50%;
     border-radius: 50%;
-    width: 350px; /* Adjust to the desired size */
-    height: 350px; /* Ensure height matches width */
-    display: block; /* Center the image if needed */
-    margin: 50px auto; /* Center the image horizontally */
+    width: 150px; 
+    height: 150px; 
+    display: block; 
+    margin: 20px auto; 
     border: 2px solid #B09A69;
 }
 
 .flex-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     /* max-width: 50%; */
 }
+
 .force-w{
-    max-width:100%;
-    justify-content: center;
+    max-width:90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.aboutSummary {
+.aboutSummary-info {
     width: 80%;
     border: 2px solid #B09A69;
     border-radius: 15px; 
     padding: 20px; 
     background-color: #EBD096;
+    min-width: 282px;
+    min-height: 340px;
   }
 
 table {
     width: 100%;
     border-collapse: collapse; /* Remove gaps between table cells */
+    min-width: 100px;
 }
 
 table, th, td {
-    border: 1px solid #B09A69; /* Add border to table elements */
+    border: 1px solid #B09A69; 
 }
 
 th, td {
-    padding: 8px; /* Add padding to table cells */
-    text-align: left; /* Align text to the left */
+    padding: 6px; 
+    text-align: left; 
 }
 
 th {
-    background-color: #B09A69; /* Add a background color to the table headers */
-    color: white; /* Change text color for better contrast */
+    background-color: #B09A69; 
+    color: white; 
 }
 
 #address-heading{
     text-align: center;
+}
+
+/* Media Query for mobile devices (man-width: 767px) */
+@media (max-width: 767px) {
+    th{
+        display: none;
+    }
+    
+    th, td {
+        font-size: 0.7rem; 
+        padding: 4px; 
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9rem; 
+        display: block; 
+        
+    }
+}
+
+/* Media Query for tablets (min-width: 768px) */
+@media (min-width: 768px) {
+    .roundi {
+        width: 200px; 
+        height: 200px; 
+        margin: 30px auto; 
+    }
+
+    .flex-container {
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+    }
+
+    .aboutSummary-info{
+        min-width: 423px;
+        min-height: 510px;
+    }
+
+}
+
+/* Media Query for desktop (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .roundi {
+        width: 350px; 
+        height: 350px; 
+        margin: 50px auto; 
+    }
+
+    .flex-container {
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+
 }
