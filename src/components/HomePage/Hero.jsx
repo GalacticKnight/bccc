@@ -7,9 +7,8 @@ const Hero = () => {
     return (
         <section class="hero"id="hero" >
             <h1 class="text-center context ">
-                
-                <span id="first">
-                    Welcome to</span>
+
+                <span id="first">Welcome to</span>
                 <br/>
                 <span id="second">Brooklyn Community Christian Church</span>
                 <br/><br/>
