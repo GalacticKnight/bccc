@@ -1,6 +1,4 @@
-#first, #second{
-    text-shadow: 2px 2px black;
-}
+
 .button {
     background-color: #ffffff; /* Green */
     border: none;
@@ -22,9 +20,9 @@
   }
   
   .button1:hover {
-    background-color: #242e47;
+    background-color: #55495e;
     color: #ffffff;
-    border: 2px solid #242e47;
+    border: 2px solid #55495e;
   }
   .button2 {
     width:150px;
@@ -34,9 +32,9 @@
   }
   
   .button2:hover {
-    background-color: #242e47;
+    background-color: #55495e;
     color: #ffffff;
-    border: 2px solid #242e47;
+    border: 2px solid #55495e;
 }
 .flash{
     text-decoration:none;
@@ -61,7 +59,7 @@
     justify-content: center;
 }
 .hero {
-    background: url("../images/Hero5.png") no-repeat;
+    background: url("../images/test1.png") no-repeat;
     
 /* 
     saturate(3) 
@@ -276,9 +274,13 @@ span {
 }
 #first{
     font-size: 30px;
+    font-family: 'Calibri';
+    
 }
 #second{
-    font-size: 60px;
+    font-size: 87px;
+    font-family: 'Calibri';
+    font-weight: bold;
 }
 span {
     display: inline-block;
@@ -349,5 +351,18 @@ animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
     100% {
         opacity: 1;
         filter: blur(0);
+    }
+}
+
+@media (max-width: 767px) {
+    #first{
+        font-size: 20px;
+        font-family: 'Calibri';
+        
+    }
+    #second{
+        font-size: 58px;
+        font-family: 'Calibri';
+        font-weight: bold;
     }
 }
