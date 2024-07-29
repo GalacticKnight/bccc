@@ -13,6 +13,7 @@ img {
 }
 .navbar {
   background-color: #ccb074;
+  /* background-color: transparent; */
   font-size: larger;
   position: fixed;
   display: flex;
@@ -38,3 +39,23 @@ img {
 .sticky + .content {
   padding-top: 60px;
 } */
+
+
+
+
+
+
+/* Mobile */
+@media only screen and (max-width:1000px) {
+
+
+  .hamburger-menu {
+      display: block; /* Show the hamburger menu */
+  }
+  .hamburger-menu a {
+    display: block;
+    color: #2B3940;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+}
