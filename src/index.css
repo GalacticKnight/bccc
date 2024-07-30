@@ -90,7 +90,8 @@ code {
   width:100%;
   padding: 20px 0;
   font-size: 40px;
-  font-family: Helvetica;
+  font-family: 'Calibri';
+
 }
 .siteHeadings::after{
   content: "";
